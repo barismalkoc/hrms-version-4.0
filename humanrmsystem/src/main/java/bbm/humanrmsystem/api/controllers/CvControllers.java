@@ -99,6 +99,13 @@ public class CvControllers {
 		return this.cvService.getAllSortedExperinceYear();
 	}
 	
+	@PostMapping("/getByCvId")
+	public DataResult<Cv> getByCvId(int cvId) {
+		
+		return this.cvService.getByCvId(cvId);
+		
+	}
+	
 	
 	
 	

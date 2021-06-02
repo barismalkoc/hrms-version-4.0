@@ -13,5 +13,6 @@ public interface CvService {
 	public DataResult<List<Cv>> getAll();
 	public DataResult<List<Cv>> getAllSortedGradutionYear();
 	public DataResult<List<Cv>> getAllSortedExperinceYear();
+	public DataResult<Cv> getByCvId(int userId);
 
 }
